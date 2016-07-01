@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tescom.chenlong.myannotation1.MainActivity">
+
+
+    <Button
+        android:id="@+id/bt_add"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="add" />
+
+    <Button
+        android:id="@+id/bt_delete"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/bt_add"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="delete" />
+
+    <Button
+        android:id="@+id/bt_update"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/bt_delete"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="update" />
+
+    <Button
+        android:id="@+id/bt_list"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/bt_update"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="list" />
+
+    <Button
+        android:id="@+id/bt_list_by_condition"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/bt_list"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="by condition" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/bt_list_by_condition"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="NULL"
+        android:textColor="#333333" />
+
+</RelativeLayout>
