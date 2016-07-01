@@ -48,6 +48,8 @@ public class MainActivity extends BaseActivity {
             user2.short1 = 456;
             user2.shorter1 = 654;
 
+
+
             long insert;
             insert = impl.insert(user1);
             tv_content.setText("" + insert);
