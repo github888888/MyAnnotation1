@@ -42,13 +42,10 @@ public class MainActivity extends BaseActivity {
             User user1 = new User();
             user1.short1 = 123;
             user1.shorter1 = 321;
-
-
+            // test
             User user2 = new User();
             user2.short1 = 456;
             user2.shorter1 = 654;
-
-
 
             long insert;
             insert = impl.insert(user1);
